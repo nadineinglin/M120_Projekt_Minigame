@@ -1,0 +1,151 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family:'Franklin Gothic';
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea,button{
+    width: 650px;
+}
+
+.jumbotron{
+    width:838px;
+}
+
+h1{
+    font-size:100px;
+}
+
+.btn-register{
+
+    color: #000000;
+    background-color: #A4A1A1;
+    padding-left:272px;
+    padding-right:273px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
+btn-login:hover{
+    color:black;
+    text-decoration-style:none;
+}
+a:hover{
+    color:#000000;
+    text-decoration:none;
+
+   
+}
+
+.games-heading{
+    font-size:237px;
+}
+
+.btn-logout {
+    background-color: #FFACAC;
+    font-size:50px;
+    color:black;
+    padding-top:27px;
+    padding-bottom:27px;
+    padding-left:47px;
+    padding-right:47px;
+    float:right;
+}
+    .btn-logout:hover {
+        background-color: #BE5858;
+    }
+
+.btn-game {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    color: #000000;
+    background-color: #90FF9B;
+    padding-left:74px;
+    padding-right:74px;
+}
+
+.btn-game:hover {
+    background-color: #4E9755
+}
+
+.margin-cards{
+    margin-right:40px;
+    margin-left:40px;
+}
+
+.margin-first{
+    margin-left:400px;
+}
+
+.start-game{
+    width:600px;
+    height:170px;
+    border: 1px solid;
+    border-color:#000000;
+
+
+}
+
+.start-btn {
+    background-color: #90FF9B;
+    color:#000000;
+    font-size:20px;
+    padding-top:26px;
+    padding-bottom:26px;
+    padding-left:247px;
+    padding-right:248px;
+}
+
+.start-btn:hover {
+    background-color: #4E9755
+}
+
+.play-games{
+    border:solid 1px;
+    border-color:#000000;
+    width:460px;
+    height:300px;
+    margin-left:50px;
+
+}
+.play-btn-logout {
+    background-color: #FFACAC;
+    font-size: 30px;
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 83px;
+    padding-right: 83px;
+
+}
+
+.play-btn-logout:hover {
+   background-color: #BE5858;
+}
+
+
+.btn-login {
+    color: #000000;
+    background-color: #A4A1A1;
+    padding-left: 300px;
+    padding-right: 299px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

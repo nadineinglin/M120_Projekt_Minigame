@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "LOGIN";
+}
+
+<form>
+    <input type="text" id="username" name="username" placeholder="BENUTZERNAME" />
+    <br />
+    <br />
+    <input type="password" id="password" name="password" placeholder="PASSWORT" />
+    <br />
+    <br />
+    @Html.ActionLink("LOGIN", "Spiele", null, new { @class = "btn-login" })
+</form>
+<br />
+<br />
+<p>KEIN KONTO? HIER REGISTRIEREN?</p>
+
+@Html.ActionLink("REGISTRIEREN", "Registration", null, new { @class = "btn-register" })

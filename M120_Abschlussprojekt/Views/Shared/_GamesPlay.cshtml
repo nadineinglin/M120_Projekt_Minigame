@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+        <div class="row">
+            <div class="play-games">
+                <center>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    @RenderBody()
+                    @Html.ActionLink("LOGOUT", "Index", null, new { @class = "play-btn-logout" })
+                </center>
+            </div>
+        </div>
+        <center><h1 class="games-heading">@ViewBag.Title</h1></center>    
+    
+</body>
+</html>

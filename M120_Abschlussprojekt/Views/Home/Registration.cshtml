@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "REGISTRIEREN";
+}
+<form>
+    <input type="text" name="username" id="username" placeholder="BENUTZERNAME" />
+    <br />
+    <br />
+    <input type="password" name="password" id="password" placeholder="PASSWORT" />
+    <br />
+    <br />
+    <input type="password" name="PASSWORD" id="repeted-password" placeholder="PASSWORT WIEDERHOLEN" />
+    <br />
+    <br />
+    <br />
+    @Html.ActionLink("REGISTRIEREN","Spiele",null , new { @class = "btn-login" } )  
+</form> 

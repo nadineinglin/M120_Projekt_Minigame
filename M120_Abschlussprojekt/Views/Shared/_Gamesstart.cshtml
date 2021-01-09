@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <center>
+        <h1 class="games-heading">@ViewBag.Title</h1>
+        <div class="start-game">
+            <br />
+            <br />
+            <br />
+            @RenderBody()
+        </div>
+        
+    </center>
+</body>
+</html>

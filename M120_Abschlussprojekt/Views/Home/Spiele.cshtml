@@ -1,0 +1,65 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "SPIELE";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="col-11">
+        @Html.ActionLink("LOGOUT", "Index", null, new { @class = "btn-logout" })
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <center class="container">
+        <h1 class="games-heading">@ViewBag.Title</h1>
+    </center>
+    <div class=" container-fluid row">
+        <div class="margin-cards margin-first">
+            <section class="card" style="width:500px; height:800px">
+                    <div class="card-body ">
+                        <center> 
+                            <h2>TETRIS</h2>
+                            <br />
+                            <br />
+                            @Html.ActionLink("SPIELEN", "Start_Tetris", null, new { @class = "btn-game" })
+                        </center>
+                    </div>
+            </section>
+        </div>
+        <div class="margin-cards">
+            <section class="card" style="width:500px; height:800px">
+                <div class="card-body">
+                    <center>
+                        <h2>MEMORY</h2>
+                        <br />
+                        <br />
+                        @Html.ActionLink("SPIELEN", "Start_Memory", null, new { @class = "btn-game" })
+                    </center> 
+                </div>
+            </section>
+        </div>
+        <div class="margin-cards">
+            <section class="card" style="width:500px; height:800px;">
+                <div class="card-body">
+                    <center>
+                        <h2>SNAKE</h2>
+                        <br />
+                        <br />
+                        @Html.ActionLink("SPIELEN", "Start_Snake", null, new { @class = "btn-game" })
+                    </center>   
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
